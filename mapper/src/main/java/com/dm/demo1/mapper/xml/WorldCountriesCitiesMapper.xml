@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dm.demo1.dao.WorldCountriesCitiesMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dm.demo1.entity.WorldCountriesCities">
+        <id column="id" property="id" />
+        <result column="city_code" property="cityCode" />
+        <result column="city_en" property="cityEn" />
+        <result column="city_cn" property="cityCn" />
+        <result column="country_code" property="countryCode" />
+        <result column="country_en" property="countryEn" />
+        <result column="country_cn" property="countryCn" />
+        <result column="continent_code" property="continentCode" />
+        <result column="continent_en" property="continentEn" />
+        <result column="continent_cn" property="continentCn" />
+    </resultMap>
+
+</mapper>

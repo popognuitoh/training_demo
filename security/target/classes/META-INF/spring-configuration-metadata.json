@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "hezhou.security",
+      "type": "com.dm.demo1.properties.SecurityProperties",
+      "sourceType": "com.dm.demo1.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hezhou.security.authentication",
+      "type": "com.dm.demo1.properties.AuthenticationProperties",
+      "sourceType": "com.dm.demo1.properties.SecurityProperties"
+    }
+  ],
+  "hints": []
+}
